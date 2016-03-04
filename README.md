@@ -15,8 +15,8 @@ Setup the directory structure as follows:
 
 - js/
   - app/
-    - controllers/
-  - angular.js
+        - controllers/
+- angular.js
 - index.html
 
 You can find `index.html` and `angular.js` in this repo.
@@ -32,3 +32,5 @@ Initiate our controller `MainController` using `ng-controller` on a HTML element
 Inside `MainController`, assign some values to the `$scope` object. You could copy our previous example - create the properties `name`, `email` and `phone`.  
 
 Now, we need to display these values inside our HTML. Using `{{ }}` (double curlys), display the values you created.
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/angular-hello-world-lab'>Angular Hello World Lab</a> on Learn.co and start learning to code for free.</p>
